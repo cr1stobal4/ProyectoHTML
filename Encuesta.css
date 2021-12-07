@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    zoom: 160%;
+}
+
+header {
+    border: 10px solid blue;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    background-color: green;
+    min-height:50px;
+}
+
+#Tienda {
+    color: red;
+    font-size: 100px;
+}
+
+#Tienda a{
+    text-decoration: none;
+    color: red;
+}
+
+form{
+    padding: 90px;
+    font-size: 30px;
+}
+
+footer{
+    border: 10px solid black;
+    background-color: black;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    color: white;
+    min-height:50px;
+}
